@@ -1,0 +1,28 @@
+.select {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+
+  &-main {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+  }
+
+  &-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10px;
+
+    &-svg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
